@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <section class="hero">
+        <img src="C:\Users\Ruan Medeiros\Desktop\Portfólio\2\ruan2.jpeg" alt="Ruan Medeiros">
+        <h1>Ruan Medeiros</h1>
+        <p>Desenvolvedor Fullstack | Bacharel em Ciência da Computação</p>
+
+        <button id="darkModeBtn" class="btn btn-dark mode-toggle-btn">
+            <i class="fas fa-moon"></i> 
+        </button>
+
+        <button id="hamburgerBtn" class="btn btn-dark mode-toggle-btn">
+            <i class="fas fa-bars"></i> 
+        </button>
+
+        <div id="navMenu" class="navbar-collapse collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#video">Vídeo Aula</a>
+                </li>
+            </ul>
+        </div>
+
+        <section id="contact" class="container dynamic-bg position-relative">
+            <div class="d-flex justify-content-center footer-icons">
+                <a href="https://github.com/RuanMedTI" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ruan-medeiros-22631a1b8/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </section>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="section-title text-center">Projetos que trabalhei</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="C:\Users\Ruan Medeiros\Desktop\Portfólio\2\nf.png" class="card-img-top" alt="Projeto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Sistema de NFS-e - NDD Tech</h5>
+                        <p class="card-text">Desenvolvimento de sistema NFS-e para mais de 200 cidades no Brasil.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="C:\Users\Ruan Medeiros\Desktop\Portfólio\2\sales.png" class="card-img-top" alt="Projeto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Força de Vendas - Bendito Digital</h5>
+                        <p class="card-text">Implementação de novas funções na plataforma e resolução de problemas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="C:\Users\Ruan Medeiros\Desktop\Portfólio\2\aula.png" class="card-img-top" alt="Projeto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Analista de Infraestrutura de TI - Softecsul</h5>
+                        <p class="card-text">Manutenção/Configuração de redes, confeccção de documentação para usuários internos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video" class="container text-center mt-5">
+        <h3>Assista também minha vídeo aula no YouTube</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GjGJkeOEg_k" title="Vídeo aula no YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
